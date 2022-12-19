@@ -76,12 +76,13 @@ li a {
     color: white;
     grid-area: content;
     padding: 1vw;
+    padding-top: 1vw;
 }
 
 .container {
     padding: 1vw;
     background-color: #E1E2E3;
-    width: 1px;
+    width: 15%;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -94,7 +95,20 @@ footer {
     color: white;
     background-color: black;
     grid-area: footer;
-    text-align: right;
+    font-weight: 500;
+    /* padding-left: 7.5vw; */
+    padding-top: 3vw;
+    overflow:hidden;
+}
+.insta {
+    /* text-align: start; */
+    padding-left: 5vw;
+    float: left;
+}
+
+.django {
+    text-align:end;
+    padding-right: 5vw;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
