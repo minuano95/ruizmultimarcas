@@ -77,12 +77,16 @@ li a {
     grid-area: content;
     padding: 1vw;
     padding-top: 1vw;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
 }
 
-.container {
+div.container {
+    margin-top: 1vw;
     padding: 1vw;
     background-color: #E1E2E3;
-    width: 15%;
+    width: 2vw;
+    height: 10vw;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
