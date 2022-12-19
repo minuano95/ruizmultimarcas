@@ -1,0 +1,100 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-columns: 20vw 78.7vw;
+    grid-template-rows: 8vw 68vw 8vw;
+    grid-template-areas: "header header"
+                        "sidebar content"
+                        "footer footer";
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+.header_container {
+    width:inherit;
+    height: 7.22vw;
+    background-color: black;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "logo contato";
+    padding-top: 1%;
+    padding-bottom: 1%;
+    vertical-align: middle;
+    text-align: center;
+    overflow:hidden;
+}
+
+.logo img {
+    width: 11.9vw;
+}
+
+.logo {
+    grid-area: logo; 
+    overflow:hidden;
+}
+
+.contato {
+    vertical-align: middle;
+    grid-area: contato;
+    padding-top: 1.3vw;
+    overflow:hidden;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+#pmd-main {
+    /* padding-bottom: 7vw; */
+    margin-top: 1vw;
+    height: 0.5vw;
+    width: 17vw;
+    background-color: #C3332B;
+    grid-area: sidebar;
+    background-color: #C3332B;
+    color: white; 
+    /* width: 100%; */
+}
+
+li {
+    background-color: #C3332B;
+}
+
+li a {
+    color: white
+}
+
+/* E1E2E3 - cor dos anuncios */
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+.content {
+    color: white;
+    grid-area: content;
+    padding: 1vw;
+}
+
+.container {
+    padding: 1vw;
+    background-color: #E1E2E3;
+    width: 1px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+footer {
+    color: white;
+    background-color: black;
+    grid-area: footer;
+    text-align: right;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */

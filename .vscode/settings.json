@@ -1,0 +1,6 @@
+{
+    "diffEditor.codeLens": true,
+    "editor.tabCompletion": "on",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true
+}
